@@ -1,0 +1,366 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #FAFAFA;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #EC715F;
+}
+
+.header-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 70px;
+}
+
+.nav-lists {
+  display: flex;
+  line-height: 70px;
+  padding: 0 30px;
+  list-style: none;
+  font-size: 16px;
+}
+
+.nav-items {
+  padding: 0 30px;
+  color: #FAFAFA;
+}
+
+.main-visual {
+  width: 100%;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual-content {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.main-visual-item {
+  font-size: 64px;
+  color: #FAFAFA;
+}
+
+.main-visual-text {
+  font-size: 20px;
+  color: #FAFAFA;
+}
+
+.portfolio {
+  background-color: #ECEFF1;
+  width: 100%;
+  text-align: center;
+}
+
+.portfolio-title {
+  padding-top: 90px;
+}
+
+.portfolio-item {
+  font-size: 32px;
+  color: #000000;
+  border-bottom:3px solid #EC715F;
+  padding-bottom:8px;
+  display:inline;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  color: #000000;
+  margin: 38px 0;
+}
+
+.portfolio-contents {
+  margin-bottom: 90px;
+  width: 920px;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+}
+
+.portfolio-image1{
+  background-image: url(img/sketch.jpg);
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-image2{
+  background-image: url(img/websuku.png);
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-image3{
+  background-image: url(img/write.jpg);
+  width: 300px;
+  height: 250px;
+  padding: 5px;
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-image4{
+  background-image: url(img/webcamp.png);
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-image5{
+  background-image: url(img/talk.jpg);
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-image6{
+  background-image: url(img/webcamp-mother.png);
+  width: 300px;
+  height: 250px;
+  padding: 5px;
+  background-size: cover;
+  background-position: center;
+}
+
+.feature {
+  width: 100%;
+  text-align: center;
+}
+
+.feature-title {
+  padding-top: 90px;
+}
+
+.feature-item {
+  font-size: 32px;
+  color: #000000;
+  border-bottom:3px solid #EC715F;
+  padding-bottom:8px;
+  display:inline;
+}
+
+.feature-text {
+  font-size: 16px;
+  color: #000000;
+  margin: 38px 0;
+}
+
+.feature-contents {
+  margin-bottom: 90px;
+  width: 980px;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+}
+
+.feature-introduce1 {
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.feature-introduce2 {
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.feature-introduce3 {
+  width: 320px;
+  height: auto;
+}
+
+.feature-icon {
+  font-size: 60px;
+}
+
+.feature-subtitle {
+  font-size: 20px;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.feature-box {
+  font-size: 16px;
+  color: #000000;
+}
+
+.profile {
+  width: 100%;
+  text-align: center;
+}
+
+.profile-title {
+  padding-top: 90px;
+}
+
+.profile-item {
+  font-size: 32px;
+  color: #000000;
+  border-bottom:3px solid #EC715F;
+  padding-bottom:8px;
+  display:inline;
+}
+
+.profile-text {
+  font-size: 16px;
+  color: #000000;
+  margin: 38px 0;
+}
+
+.profile-contents {
+  margin-bottom: 90px;
+  width: 1024px;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+}
+
+.profile-image-box {
+  width: 512px;
+  height: auto;
+}
+
+.profile-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.profile-main {
+  margin-bottom: 90px;
+}
+
+.profile-name {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile-self-introduction {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.profile-skill {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile-skill-introduction {
+  font-size: 16px;
+  color: #000000;
+}
+
+.contact {
+  width: 100%;
+  text-align: center;
+}
+
+.contact-title {
+  padding-top: 90px;
+}
+
+.contact-item {
+  font-size: 32px;
+  color: #000000;
+  border-bottom:3px solid #EC715F;
+  padding-bottom:8px;
+  display:inline;
+}
+
+.contact-text {
+  font-size: 16px;
+  color: #000000;
+  margin: 38px 0;
+}
+
+.contact-contents {
+  margin-bottom: 90px;
+  width: 800px;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+}
+
+.contact-info {
+  width: 400px;
+  height: auto;
+}
+
+.contact-info-title1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-info-text1 {
+  border-bottom: 1px solid;
+  display:inline;
+}
+
+.contact-info-title2 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-info-text2 {
+  border-bottom: 1px solid;
+  display:inline;
+}
+
+.contact-sns {
+  width: 400px;
+  height: auto;
+}
+
+.contact-sns-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-sns-icon i {
+  font-size: 50px;
+  padding: 20px;
+}
+
+footer {
+  width: auto;
+  height: 60px;
+  background-color: #EC715F;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #FAFAFA;
+  line-height: 60px;
+}
