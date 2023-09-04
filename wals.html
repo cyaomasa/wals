@@ -2,7 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=0.9">
     <script src="https://kit.fontawesome.com/7dea513659.js" crossorigin="anonymous"></script>
     <!-- CSSファイルの読み込み -->
     <link rel="stylesheet" href="wals.css" />
@@ -14,22 +14,26 @@
       <header>
         <div class="header-group">
           <img class="logo" src="img/logo.png" />
-          <nav>
-            <ul class="nav-lists">
+          <div class="nav">
+            <input id="drawer_input" class="drawer_hidden" type="checkbox">
+            <label for="drawer_input" class="drawer_open"><span></span></label>
+          <nav class="nav-content">
+            <ul class="nav-list">
               <li class="nav-items">
                 <a href="#portfolio">Portfolio</a>
               </li>
-              <li class="nav-items">
+              <li class="nav-item">
                 <a href="#feature">Feature</a>
                 </li>
-              <li class="nav-items">
+              <li class="nav-item">
                 <a href="#profile">Profile</a>
               </li>
-              <li class="nav-items">
+              <li class="nav-item">
                 <a href="#contact">Contact</a>
               </li>
             </ul>
           </nav>
+          </div>
         </div>
       </header>
       <div class="main-visual">
